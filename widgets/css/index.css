@@ -1,0 +1,57 @@
+div, ul, li, h1, html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  background: transparent;
+  font-family: 'Arimo', sans-serif;
+
+}
+
+.clock-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clock {
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px auto;
+  border: 5px ridge grey;
+  background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQzYVMYFGfZdvYFt3VrbK-2xeP0B_MUuQUrx8spZsIFgtvD9IJr");
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.clock ul {
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.weather-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather {
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px auto;
+  border: 5px ridge grey;
+  background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQzYVMYFGfZdvYFt3VrbK-2xeP0B_MUuQUrx8spZsIFgtvD9IJr");
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.weather ul {
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.5);
+}
